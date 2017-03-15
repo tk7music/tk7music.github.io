@@ -77,7 +77,7 @@ a {
 }
 
 .footer {
-	height: 100px;
+	height: 125px;
 	margin-top: 20px;
 	background: #00B2BD;
 	border-top: 3px solid #D0C74F;
@@ -94,6 +94,10 @@ a {
 	height: 50px;
 	margin: 0 30px;
 	cursor: pointer;
+}
+
+.email {
+	text-align: center;
 }
 
 #soundcloud {
