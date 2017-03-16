@@ -126,10 +126,15 @@ a {
 	.background-container {
 		background-size: contain;
 		background-attachment: scroll;
+		height: 100vh;
 	}
 
 	.list-item {
 		display: block;
+	}
+
+	#about {
+		padding-top: 0;
 	}
 
 	.about-text {
@@ -139,6 +144,7 @@ a {
 
 	.about-text h1 {
 		font-size: 24px;
+		margin-top: 0;
 	}
 
 	.track {
