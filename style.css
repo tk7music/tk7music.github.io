@@ -116,3 +116,47 @@ a {
 	background: url('http://www.iconsdb.com/icons/preview/black/twitter-xxl.png');
 	background-size: contain;
 }
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+	.background-container {
+		background-size: 100% auto;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: fixed;
+	}
+
+	.list-item {
+		display: block;
+	}
+
+	.about-text {
+		padding: 0;
+		width: 75%;
+	}
+
+	.about-text h1 {
+		font-size: 24px;
+	}
+
+	.track {
+		width: 80%;
+	}
+
+	.footer	{
+		height: 100px;
+	}
+
+	.icon {
+		width: 35px;
+		height: 35px;
+		margin: 0 15px;
+	}
+	.footer {
+		height: 170px;
+	}
+}
