@@ -125,6 +125,7 @@ a {
 
 	.background-container {
 		background-size: contain;
+		background-attachment: scroll;
 	}
 
 	.list-item {
